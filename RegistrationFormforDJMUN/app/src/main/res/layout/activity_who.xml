@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WHO">
+
+    <TextView
+        android:id="@+id/tvWho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="WORLD HEALTH ORGANISATION"
+        android:textColor="#b3e5fc"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvWAgenda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="Agenda : "
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvWTopic"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Weak primary health care and Astana Declaration."
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/ivWho"
+        android:layout_width="wrap_content"
+        android:layout_height="208dp"
+        android:layout_margin="15dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/phc" />
+
+    <Button
+        android:id="@+id/btnWRes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="#000000"
+        android:text="CLICK FOR STUDY GUIDE"
+        android:textColor="#b3e5fc"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnWConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="#000000"
+        android:text="CLICK TO CONFIRM"
+        android:textColor="#b3e5fc"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnWBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="#000000"
+        android:text="BACK"
+        android:textColor="#b3e5fc"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutCommittee"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Committee">
+
+    <TextView
+        android:id="@+id/tvChoose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="CHOOSE YOUR COMMITTEE"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/ibSc"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/unsc" />
+
+            <ImageButton
+                android:id="@+id/ibUnesco"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="8dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/unn" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/ibUnicef"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="8dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/unicef" />
+
+            <ImageButton
+                android:id="@+id/ibWho"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="8dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/who" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+</LinearLayout>

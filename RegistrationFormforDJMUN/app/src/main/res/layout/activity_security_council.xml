@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".SecurityCouncil">
+
+    <TextView
+        android:id="@+id/tvSc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="SECURITY COUNCIL"
+        android:textColor="#b3e5fc"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvAgenda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="Agenda : "
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTopic"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Balance between applying sanctions and encouraging DPRK to engage on the diplomatic front."
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/ivSc"
+        android:layout_width="wrap_content"
+        android:layout_height="155dp"
+        android:layout_margin="15dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/sec_0" />
+
+    <Button
+        android:id="@+id/btnRes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="#000000"
+        android:text="CLICK FOR STUDY GUIDE"
+        android:textColor="#b3e5fc"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnScConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="#000000"
+        android:text="CLICK TO CONFIRM"
+        android:textColor="#b3e5fc"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="#000000"
+        android:text="BACK"
+        android:textColor="#b3e5fc"
+        android:textStyle="bold" />
+
+</LinearLayout>
